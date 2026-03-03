@@ -1,0 +1,273 @@
+{
+  "freight_bill": {
+    "series_no": "",
+    "bill_date": "25-02-2026",
+    "po_no": "",
+    "pan_no": "ARMPS3396J",
+    "summary": "Transport of Gypsum Phospho",
+    "to_party": {
+      "name": "",
+      "address": ""
+    },
+    "runs": [
+      {
+        "date": "21-10-2025",
+        "truck_no": "AP39TU3699",
+        "lr_no": "",
+        "dc_qty_mt": 34.72,
+        "gr_qty_mt": 34.44,
+        "rate": 710,
+        "line_total": 24452.399999999998
+      },
+      {
+        "date": "22-10-2025",
+        "truck_no": "AP04TW6858",
+        "lr_no": "",
+        "dc_qty_mt": 30.15,
+        "gr_qty_mt": 30.44,
+        "rate": 710,
+        "line_total": 21612.4
+      },
+      {
+        "date": "22-10-2025",
+        "truck_no": "AP04TT6462",
+        "lr_no": "",
+        "dc_qty_mt": 29.92,
+        "gr_qty_mt": 30.28,
+        "rate": 710,
+        "line_total": 21498.8
+      },
+      {
+        "date": "22-10-2025",
+        "truck_no": "AP39V1224",
+        "lr_no": "",
+        "dc_qty_mt": 47.63,
+        "gr_qty_mt": 47.08,
+        "rate": 710,
+        "line_total": 33426.799999999996
+      },
+      {
+        "date": "23-10-2025",
+        "truck_no": "AP39UM5346",
+        "lr_no": "",
+        "dc_qty_mt": 51.28,
+        "gr_qty_mt": 50.54,
+        "rate": 710,
+        "line_total": 35883.4
+      },
+      {
+        "date": "23-10-2025",
+        "truck_no": "AP04TW5157",
+        "lr_no": "",
+        "dc_qty_mt": 29,
+        "gr_qty_mt": 28.76,
+        "rate": 710,
+        "line_total": 20419.600000000002
+      },
+      {
+        "date": "23-10-2025",
+        "truck_no": "AP39UP1656",
+        "lr_no": "",
+        "dc_qty_mt": 45.59,
+        "gr_qty_mt": 45.24,
+        "rate": 710,
+        "line_total": 32120.4
+      },
+      {
+        "date": "23-10-2025",
+        "truck_no": "AP39UD8288",
+        "lr_no": "",
+        "dc_qty_mt": 34.92,
+        "gr_qty_mt": 34.6,
+        "rate": 710,
+        "line_total": 24566.0
+      },
+      {
+        "date": "24-10-2025",
+        "truck_no": "AP39VF3459",
+        "lr_no": "",
+        "dc_qty_mt": 30.26,
+        "gr_qty_mt": 30.12,
+        "rate": 710,
+        "line_total": 21385.2
+      },
+      {
+        "date": "24-10-2025",
+        "truck_no": "AP39UM7388",
+        "lr_no": "",
+        "dc_qty_mt": 35.31,
+        "gr_qty_mt": 35.42,
+        "rate": 710,
+        "line_total": 25148.2
+      },
+      {
+        "date": "24-10-2025",
+        "truck_no": "AP39UP0239",
+        "lr_no": "",
+        "dc_qty_mt": 30.06,
+        "gr_qty_mt": 30.7,
+        "rate": 710,
+        "line_total": 21797.0
+      },
+      {
+        "date": "24-10-2025",
+        "truck_no": "AP39WB9799",
+        "lr_no": "",
+        "dc_qty_mt": 36.36,
+        "gr_qty_mt": 36.54,
+        "rate": 710,
+        "line_total": 25943.399999999998
+      },
+      {
+        "date": "24-10-2025",
+        "truck_no": "AP39WC2155",
+        "lr_no": "",
+        "dc_qty_mt": 35.25,
+        "gr_qty_mt": 34.8,
+        "rate": 710,
+        "line_total": 24707.999999999996
+      },
+      {
+        "date": "25-10-2025",
+        "truck_no": "AP39UV6299",
+        "lr_no": "",
+        "dc_qty_mt": 34.65,
+        "gr_qty_mt": 34.26,
+        "rate": 710,
+        "line_total": 24324.6
+      },
+      {
+        "date": "25-10-2025",
+        "truck_no": "AP39UC5399",
+        "lr_no": "",
+        "dc_qty_mt": 35.96,
+        "gr_qty_mt": 35.4,
+        "rate": 710,
+        "line_total": 25134.0
+      },
+      {
+        "date": "25-10-2025",
+        "truck_no": "AP04TW4645",
+        "lr_no": "",
+        "dc_qty_mt": 48.38,
+        "gr_qty_mt": 48.78,
+        "rate": 710,
+        "line_total": 34633.8
+      },
+      {
+        "date": "25-10-2025",
+        "truck_no": "AP39VD1279",
+        "lr_no": "",
+        "dc_qty_mt": 29.96,
+        "gr_qty_mt": 29.6,
+        "rate": 710,
+        "line_total": 21016.0
+      },
+      {
+        "date": "25-10-2025",
+        "truck_no": "AP39UM5169",
+        "lr_no": "",
+        "dc_qty_mt": 29.07,
+        "gr_qty_mt": 28.68,
+        "rate": 710,
+        "line_total": 20362.8
+      },
+      {
+        "date": "25-10-2025",
+        "truck_no": "AP39WC6269",
+        "lr_no": "",
+        "dc_qty_mt": 36.55,
+        "gr_qty_mt": 36.08,
+        "rate": 710,
+        "line_total": 25616.8
+      },
+      {
+        "date": "25-10-2025",
+        "truck_no": "AP39UB7289",
+        "lr_no": "",
+        "dc_qty_mt": 35.51,
+        "gr_qty_mt": 34.96,
+        "rate": 710,
+        "line_total": 24821.600000000002
+      },
+      {
+        "date": "25-10-2025",
+        "truck_no": "AP39UV7199",
+        "lr_no": "",
+        "dc_qty_mt": 35.59,
+        "gr_qty_mt": 35.08,
+        "rate": 710,
+        "line_total": 24906.8
+      },
+      {
+        "date": "25-10-2025",
+        "truck_no": "AP39TJ8189",
+        "lr_no": "",
+        "dc_qty_mt": 31.61,
+        "gr_qty_mt": 31.08,
+        "rate": 710,
+        "line_total": 22066.8
+      },
+      {
+        "date": "26-10-2025",
+        "truck_no": "AP39UM6489",
+        "lr_no": "",
+        "dc_qty_mt": 35.55,
+        "gr_qty_mt": 35.16,
+        "rate": 710,
+        "line_total": 24963.6
+      },
+      {
+        "date": "26-10-2025",
+        "truck_no": "AP39WC0119",
+        "lr_no": "",
+        "dc_qty_mt": 35.65,
+        "gr_qty_mt": 35.16,
+        "rate": 710,
+        "line_total": 24963.6
+      },
+      {
+        "date": "26-10-2025",
+        "truck_no": "AP39WD5886",
+        "lr_no": "",
+        "dc_qty_mt": 36.39,
+        "gr_qty_mt": 35.64,
+        "rate": 710,
+        "line_total": 25304.4
+      },
+      {
+        "date": "26-10-2025",
+        "truck_no": "AP04TT6462",
+        "lr_no": "",
+        "dc_qty_mt": 32.02,
+        "gr_qty_mt": 31.56,
+        "rate": 710,
+        "line_total": 22407.6
+      },
+      {
+        "date": "26-10-2025",
+        "truck_no": "AP04TW5157",
+        "lr_no": "",
+        "dc_qty_mt": 34.76,
+        "gr_qty_mt": 34.2,
+        "rate": 710,
+        "line_total": 24282.000000000004
+      },
+      {
+        "date": "27-10-2025",
+        "truck_no": "AP39WD7789",
+        "lr_no": "",
+        "dc_qty_mt": 34.99,
+        "gr_qty_mt": 34.5,
+        "rate": 710,
+        "line_total": 24495.0
+      }
+    ],
+    "rate_default": 0,
+    "dc_total": 997.09,
+    "gr_total": 989.1,
+    "subtotal": 702261.0,
+    "total": 702261.0,
+    "amount_in_words": ""
+  }
+}

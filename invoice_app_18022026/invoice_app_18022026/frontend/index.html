@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />   
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Invoice Generator Application</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
+
+
+<!-- <!DOCTYPE html>
+
+
+function countVowels(str) {
+    let vowels = "aeiouAEIOU";
+    let count = 0;
+
+    for (let char of str) {
+        if (vowels.includes(char)) {
+            count++;
+        }
+    }
+
+    return count;
+}
+
+console.log(countVowels("Hello World"));
+
+
+function removeDuplicates(arr) {
+    let unique = [];
+
+    for (let i = 0; i < arr.length; i++) {
+        if (!unique.includes(arr[i])) {
+            unique.push(arr[i]);
+        }
+    }
+
+    return unique;
+}
+
+console.log(removeDuplicates([1,2,2,3,4,4,5]));
+
+
+
+<html>
+<head>
+    <title>Simple Login Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #4facfe, #00f2fe);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .login-box {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            width: 300px;
+            box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
+            text-align: center;
+        }
+
+        h2 {
+            margin-bottom: 20px;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background: #4facfe;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #00c6ff;
+        }
+
+        .error {
+            color: red;
+            font-size: 14px;
+        }
+
+        .success {
+            color: green;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="login-box">
+        <h2>Login</h2>
+        <input type="text" id="username" placeholder="Enter Username">
+        <input type="password" id="password" placeholder="Enter Password">
+        <button onclick="login()">Login</button>
+        <p id="message"></p>
+    </div>
+
+    <script>
+        function login() {
+            var username = document.getElementById("username").value;
+            var password = document.getElementById("password").value;
+            var message = document.getElementById("message");
+
+            // Simple validation
+            if(username === "admin" && password === "1234") {
+                message.innerHTML = "Login Successful!";
+                message.className = "success";
+            } else {
+                message.innerHTML = "Invalid Username or Password!";
+                message.className = "error";
+            }
+        }
+    </script>
+
+</body>
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html>
+<head>
+    <title>Simple CRUD App</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #4facfe, #00f2fe);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            width: 400px;
+            box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin: 8px 0;
+        }
+
+        button {
+            padding: 8px 12px;
+            margin: 5px 0;
+            border: none;
+            background: #4facfe;
+            color: white;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #00c6ff;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            background: #f2f2f2;
+            margin: 5px 0;
+            padding: 8px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .edit-btn {
+            background: orange;
+        }
+
+        .delete-btn {
+            background: red;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>User CRUD App</h2>
+
+    <input type="text" id="name" placeholder="Enter Name">
+    <input type="email" id="email" placeholder="Enter Email">
+    <button onclick="addUser()">Add User</button>
+
+    <ul id="userList"></ul>
+</div>
+
+<script>
+
+    let users = [];
+    let editIndex = -1;
+
+    function addUser() {
+        const name = document.getElementById("name").value;
+        const email = document.getElementById("email").value;
+
+        if(name === "" || email === "") {
+            alert("Please fill all fields");
+            return;
+        }
+
+        if(editIndex === -1) {
+            // CREATE
+            users.push({name, email});
+        } else {
+            // UPDATE
+            users[editIndex] = {name, email};
+            editIndex = -1;
+        }
+
+        document.getElementById("name").value = "";
+        document.getElementById("email").value = "";
+
+        displayUsers();
+    }
+
+    function displayUsers() {
+        const userList = document.getElementById("userList");
+        userList.innerHTML = "";
+
+        users.forEach((user, index) => {
+            userList.innerHTML += `
+                <li>
+                    ${user.name} - ${user.email}
+                    <div>
+                        <button class="edit-btn" onclick="editUser(${index})">Edit</button>
+                        <button class="delete-btn" onclick="deleteUser(${index})">Delete</button>
+                    </div>
+                </li>
+            `;
+        });
+    }
+
+    function editUser(index) {
+        document.getElementById("name").value = users[index].name;
+        document.getElementById("email").value = users[index].email;
+        editIndex = index;
+    }
+
+    function deleteUser(index) {
+        users.splice(index, 1);
+        displayUsers();
+    }
+    
+
+
+</script>
+
+</body>
+</html> -->
