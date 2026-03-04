@@ -34,6 +34,13 @@ export default function Services() {
       icon: <Percent size={40} />,
       action: () => navigate("/"),
     },
+     {
+      title: "AI-powered balance sheet analyzers",
+      description:
+        "Our AI-driven balance sheet analyzer simplifies complex financial statements, helping businesses detect risks, improve performance, and plan strategically.",
+      icon: <Percent size={40} />,
+      action: () => navigate("/"),
+    },
     {
       title: "AI-Powered Balance Sheet Maker",
       description:
